@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NHibernate.Linq.InnerJoinFetch</id>
+    <version>1.0.0</version>
+    <title>NHibernate Linq Inner Join Fetch provider</title>
+    <authors>paleta</authors>
+    <owners></owners>
+    <description>
+      Allows to perform inner join fetching using the NHibernate Linq provider, functionality that is missing from the NHibernate project.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+        Allows to perform inner join fetching using the NHibernate Linq provider, functionality that is missing from the NHibernate project.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://github.com/eallegretta/nhibernate-linq-innerjoin-fetch</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <copyright>Copyright  2013</copyright>
+    <dependencies>
+        <group>
+          <dependency id="NHibernate" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
