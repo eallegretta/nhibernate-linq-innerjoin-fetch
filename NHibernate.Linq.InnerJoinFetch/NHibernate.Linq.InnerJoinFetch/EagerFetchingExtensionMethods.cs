@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using Remotion.Linq.Utilities;
 
-namespace NHibernate.Linq.InnerJoinFetch
+namespace NHibernate.Linq
 {
     public static class EagerFetchingExtensionMethods
     {
